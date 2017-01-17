@@ -1,0 +1,236 @@
+
+* {
+	box-sizing: border-box;
+    }
+
+body {
+	   background-color: #470801;
+       height: 100%;
+	   font-family: 'Vast Shadow', cursive;
+	   font-size: 16px;
+	   line-height: 20px;
+	   margin: 1% auto;
+	}
+
+h1, h2, h3, h4, h5 {
+        font-family: 'Vast Shadow', cursive;
+    }
+
+h1  {
+	    font-size: 28px;
+	    line-height: 50px;
+	    padding-bottom: 20px;
+	    color: white;
+	    text-shadow: 4px 4px 8px #300500;
+
+    }
+
+h2 {
+	    font-size: 24px;
+	    line-height: 35px;
+	    padding-bottom: 20px;
+	    color: white;
+	    text-shadow: 4px 4px 8px #300500;
+    }
+
+h3  {
+	    font-size: 22px;
+	    line-height: 30px;
+	    padding-bottom: 20px;
+	    color: white;
+	    text-shadow: 4px 4px 8px #300500;
+    }
+
+h4  {
+		font-size: 18px;
+	    line-height: 30px;
+	    padding-bottom: 20px;
+	    color: white;
+	    width:200px;
+	    text-shadow: 4px 4px 8px #300500;
+    }
+
+/*form starts here*/
+#formRow,
+.form-gifs, 
+label     {
+	width: 40%;
+	height: 60px;
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	font-size: 26px;
+	line-height: 35px;
+	color: white;
+	text-shadow: 5px 5px 8px #300500;	
+}
+
+.form-gifs,
+input[type=text]  {
+	        width: 40%;
+	        height: 60px;
+	        display: inline;
+	        font-size: 24px;
+	        line-height: 35px;
+			background-color: default;
+	        border: 2px white;
+	        padding: 0 20px;
+	        font-size: 28px;
+	        box-shadow: 10px 10px 5px #300500;
+           }
+
+	
+.form-gifs,
+#newButton, #clearButton  {
+	width: 15%;
+	height: 60px;
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	cursor: pointer;
+	background-color: #470801; 
+    color: white; 
+    border-radius: 4px;
+    border: 2px solid white;
+	font-size: 26px;
+	line-height: 35px;
+	margin: 1% auto;
+	text: center;
+	box-shadow: 10px 10px 5px #300500;
+}
+
+	/*Buttons starts here*/
+ .btn-danger  {
+	height: 35px;
+	background-color: #470801;
+	display: inline-block;
+	cursor: pointer; 
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 1% auto;
+	text: center;
+	box-shadow: 10px 10px 5px #300500;
+  
+}
+
+	/*div "class="gifRow"*/
+.gifRow  {
+
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	background-color: default; 
+	font-size: 26px;
+	margin: 3% auto;
+	box-shadow: 10px 10px 5px #300500;
+}
+
+	/*div "class="slidingRow"*/
+.slidingRow  {
+
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	background-color: default; 
+	font-size: 26px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	box-shadow: 10px 10px 5px #300500;
+}
+
+.slidingRow > img {
+	height:400px;
+	width: auto;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px #300500;
+	}
+
+#slidingGifs  {
+	width: 100%;
+	height: 400px;
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 500px;
+      height: 350px;
+      margin: auto;
+  }
+
+/*
+@keyframes moveRight {
+	0% {left: 0px;}
+	50% {left: 200px;}
+	100% {left: 800px;}
+}
+@keyframes moveRightFinal {
+	0% {left: 0px;}
+	50% {left: 200px;}
+}
+
+	/*div "animated-pics"*/
+
+#animated-pics  {
+  
+        display: inline;
+        padding: 10px 10px 10px 10px;
+        cursor: pointer;
+        font-size: 22px;
+        text-align: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+h3   {
+    font-size: 22px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 4px #300500;
+}
+
+h3:hover  {
+	color: blue;
+	background-color: solid red;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.picsRow {
+	height: 250px;
+	width: 225px;
+}
+
+.picsRow > img {
+	height:200px;
+	width:200px;
+	float: left;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px #300500;
+
+}
+
+.Row  {
+    font-size: 22px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	
+}
+
+image {
+	width: 100%;
+	height: 100%;
+    cursor: pointer;
+    border: 3px solid red;
+	margin: 5% auto;
+	padding: 10px;
+	width: 100%;
+    border: 1px solid #8a4419;
+    border-style: inset;
+    12.0-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+
+
